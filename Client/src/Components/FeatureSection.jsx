@@ -1,58 +1,46 @@
-import Title from './Title'
 import CarCards from './CarCards'
-import { assets } from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
 import { useAppContext } from '../context/AppContext'
-import {motion} from 'motion/react'
+import { ArrowRight } from 'lucide-react'
 
 const FeatureSection = () => {
-    const navigate = useNavigate()
+  const navigate = useNavigate()
+  const { tractors, language = 'en', t } = useAppContext()
 
-    const { tractors } = useAppContext();
+  const listToDisplay = (tractors || []).filter((tractor) => tractor.status === 'approved' || !tractor.status)
 
   return (
-    <motion.div 
-    initial={{opacity: 0, y : 40}}
-    whileInView={{opacity: 1, y: 0}}
-    transition={{duration : 1, ease: "easeOut"}}
-    className='flex flex-col items-center py-24 px-6 md:px-16 lg:px-24 xl:px-32'>
+    <section className='px-4 py-16 sm:px-6 lg:px-8 max-w-7xl mx-auto antialiased'>
+      <div className='flex flex-col gap-4 pb-4 sm:flex-row sm:items-end sm:justify-between'>
+        <div>
+          <p className='text-xs font-bold uppercase tracking-[0.22em] text-blue-700'>Featured tractors</p>
+          <h2 className='mt-2 text-2xl font-black tracking-tight text-slate-900 sm:text-3xl'>
+            {t('featuredTitle')}
+          </h2>
+          <p className='mt-2 max-w-2xl text-sm text-slate-500'>
+            {t('featuredSubtitle')}
+          </p>
+        </div>
 
-        <motion.div
-            initial={{opacity: 0, y : 20}}
-            whileInView={{opacity: 1, y: 0}}
-            transition={{duration : 1, delay : 0.5}}
+        <button
+          type='button'
+          onClick={() => {
+            navigate('/tractor')
+            window.scrollTo(0, 0)
+          }}
+          className='inline-flex items-center gap-2 self-start rounded-full border border-slate-300 bg-white px-4 py-2 text-xs font-bold text-blue-700 transition-colors hover:border-blue-200 hover:bg-blue-50 sm:self-auto'
         >
-            <Title title='Featured Tractors' subtitle='Explore our selection of reliable tractors available for your next job.'/>
-        </motion.div>
+          <span>{language === 'hi' ? 'सभी 24+ ट्रैक्टर देखें' : 'View All 24+ Tractors'}</span>
+          <ArrowRight className='h-4 w-4' />
+        </button>
+      </div>
 
-        <motion.div
-        initial={{opacity: 0, y: 100}}
-        whileInView={{opacity: 1, y: 0}}
-        transition={{duration: 1, delay: 0.5}}
-        className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16'>
-            {
-                tractors.slice(0, 6).map((tractor) => (
-                    <motion.div
-                    initial={{opacity: 0, scale: 0.95}}
-                    whileInView={{opacity: 1, scale: 1}}
-                    transition={{duration: 1, ease: 'easeOut'}}
-                    key={tractor._id || tractor.id}>
-                        <CarCards tractor={tractor}/> 
-                    </motion.div>
-                ))
-            }
-        </motion.div> 
-        <motion.button 
-        initial={{opacity: 0, y: 20}}
-        whileInView={{opacity: 1, y: 0}}
-        transition={{delay: 0.6, duration: 0.4}}
-        onClick={() => {
-            navigate('/tractor'); window.scrollTo(0, 0)
-        }} className='flex items-center justify-center gap-2 px-6 py-2 border border-borderColor hover:bg-gray-50 rounded-md mt-16 cursor-pointer'>
-            Explore all tractors <img src={assets.Arrow_icon} alt="Arrow" />
-        </motion.button>
-
-    </motion.div>
+      <div className='mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+        {listToDisplay.slice(0, 6).map((tractor) => (
+          <CarCards key={tractor._id || tractor.id} tractor={tractor} />
+        ))}
+      </div>
+    </section>
   )
 }
 

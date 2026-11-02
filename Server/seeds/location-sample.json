@@ -1,0 +1,357 @@
+[
+  {
+    "state": "Uttar Pradesh",
+    "stateCode": "09",
+    "districts": [
+      {
+        "name": "Sonbhadra",
+        "code": "098",
+        "blocks": [
+          { "name": "Robertsganj", "code": "0981", "villages": [{ "name": "Uruwa", "code": "0981001" }, { "name": "Pusouli", "code": "0981002" }] },
+          { "name": "Ghorawal", "code": "0982", "villages": [{ "name": "Ghorawal", "code": "0982001" }] }
+        ]
+      },
+      {
+        "name": "Varanasi",
+        "code": "095",
+        "blocks": [
+          { "name": "Pindra", "code": "0951", "villages": [{ "name": "Babatpur", "code": "0951001" }, { "name": "Phulpur", "code": "0951002" }] },
+          { "name": "Arajiline", "code": "0952", "villages": [{ "name": "Raja Talab", "code": "0952001" }] }
+        ]
+      },
+      { "name": "Lucknow", "code": "091", "blocks": [{ "name": "Bakshi Ka Talab", "code": "0911", "villages": [{ "name": "Bhaisamau", "code": "0911001" }] }, { "name": "Sarojini Nagar", "code": "0912", "villages": [{ "name": "Natkur", "code": "0912001" }] }] },
+      { "name": "Kanpur Nagar", "code": "092", "blocks": [{ "name": "Bilhaur", "code": "0921", "villages": [{ "name": "Bilhaur Rural", "code": "0921001" }] }, { "name": "Kalyanpur", "code": "0922", "villages": [{ "name": "Bithoor", "code": "0922001" }] }] },
+      { "name": "Prayagraj", "code": "093", "blocks": [{ "name": "Phulpur", "code": "0931", "villages": [{ "name": "Jhusi", "code": "0931001" }] }, { "name": "Soraon", "code": "0932", "villages": [{ "name": "Mau Aima", "code": "0932001" }] }] },
+      { "name": "Agra", "code": "094", "blocks": [{ "name": "Fatehabad", "code": "0941", "villages": [{ "name": "Fatehabad Rural", "code": "0941001" }] }, { "name": "Bichpuri", "code": "0942", "villages": [{ "name": "Midhakur", "code": "0942001" }] }] },
+      { "name": "Meerut", "code": "096", "blocks": [{ "name": "Mawana", "code": "0961", "villages": [{ "name": "Mawana Kalan", "code": "0961001" }] }, { "name": "Sardhana", "code": "0962", "villages": [{ "name": "Daurala", "code": "0962001" }] }] },
+      { "name": "Bareilly", "code": "097", "blocks": [{ "name": "Faridpur", "code": "0971", "villages": [{ "name": "Fatehganj", "code": "0971001" }] }, { "name": "Baheri", "code": "0972", "villages": [{ "name": "Richha", "code": "0972001" }] }] },
+      { "name": "Gorakhpur", "code": "099", "blocks": [{ "name": "Sahjanwa", "code": "0991", "villages": [{ "name": "Ghaghrasarai", "code": "0991001" }] }, { "name": "Pipraich", "code": "0992", "villages": [{ "name": "Pipraich Rural", "code": "0992001" }] }] },
+      { "name": "Aligarh", "code": "0910", "blocks": [{ "name": "Khair", "code": "09101", "villages": [{ "name": "Tappal", "code": "0910101" }] }] },
+      { "name": "Ayodhya", "code": "0911", "blocks": [{ "name": "Rudauli", "code": "09111", "villages": [{ "name": "Sohawal", "code": "0911101" }] }] },
+      { "name": "Jhansi", "code": "0912", "blocks": [{ "name": "Mauranipur", "code": "09121", "villages": [{ "name": "Ranipur", "code": "0912101" }] }] },
+      { "name": "Mathura", "code": "0913", "blocks": [{ "name": "Chhata", "code": "09131", "villages": [{ "name": "Barsana", "code": "0913101" }] }] },
+      { "name": "Muzaffarnagar", "code": "0914", "blocks": [{ "name": "Khatauli", "code": "09141", "villages": [{ "name": "Mansurpur", "code": "0914101" }] }] },
+      { "name": "Sitapur", "code": "0915", "blocks": [{ "name": "Mahmoodabad", "code": "09151", "villages": [{ "name": "Biswan", "code": "0915101" }] }] }
+    ]
+  },
+  {
+    "state": "Punjab",
+    "stateCode": "03",
+    "districts": [
+      {
+        "name": "Ludhiana",
+        "code": "030",
+        "blocks": [
+          { "name": "Jagraon", "code": "0301", "villages": [{ "name": "Mullanpur", "code": "0301001" }, { "name": "Sidhwan Bet", "code": "0301002" }] },
+          { "name": "Samrala", "code": "0302", "villages": [{ "name": "Machhiwara", "code": "0302001" }] },
+          { "name": "Khanna", "code": "0303", "villages": [{ "name": "Payal", "code": "0303001" }] }
+        ]
+      },
+      {
+        "name": "Amritsar",
+        "code": "031",
+        "blocks": [
+          { "name": "Ajnala", "code": "0311", "villages": [{ "name": "Othian", "code": "0311001" }, { "name": "Rajasansi", "code": "0311002" }] },
+          { "name": "Attari", "code": "0312", "villages": [{ "name": "Khasa", "code": "0312001" }] }
+        ]
+      },
+      { "name": "Jalandhar", "code": "032", "blocks": [{ "name": "Nakodar", "code": "0321", "villages": [{ "name": "Shahkot", "code": "0321001" }] }, { "name": "Phillaur", "code": "0322", "villages": [{ "name": "Goraya", "code": "0322001" }] }] },
+      { "name": "Patiala", "code": "033", "blocks": [{ "name": "Nabha", "code": "0331", "villages": [{ "name": "Bhadson", "code": "0331001" }] }, { "name": "Samana", "code": "0332", "villages": [{ "name": "Patran", "code": "0332001" }] }] },
+      { "name": "Bathinda", "code": "034", "blocks": [{ "name": "Talwandi Sabo", "code": "0341", "villages": [{ "name": "Rampura Phul", "code": "0341001" }] }, { "name": "Goniana", "code": "0342", "villages": [{ "name": "Bhagta Bhaika", "code": "0342001" }] }] },
+      { "name": "SAS Nagar (Mohali)", "code": "035", "blocks": [{ "name": "Kharar", "code": "0351", "villages": [{ "name": "Kurali", "code": "0351001" }] }, { "name": "Dera Bassi", "code": "0352", "villages": [{ "name": "Lalru", "code": "0352001" }] }] },
+      { "name": "Sangrur", "code": "036", "blocks": [{ "name": "Sunam", "code": "0361", "villages": [{ "name": "Dhuri", "code": "0361001" }] }] },
+      { "name": "Firozpur", "code": "037", "blocks": [{ "name": "Zira", "code": "0371", "villages": [{ "name": "Makhu", "code": "0371001" }] }] },
+      { "name": "Hoshiarpur", "code": "038", "blocks": [{ "name": "Dasuya", "code": "0381", "villages": [{ "name": "Mukerian", "code": "0381001" }] }] },
+      { "name": "Fazilka", "code": "039", "blocks": [{ "name": "Abohar", "code": "0391", "villages": [{ "name": "Khuian Sarwar", "code": "0391001" }] }] }
+    ]
+  },
+  {
+    "state": "Haryana",
+    "stateCode": "06",
+    "districts": [
+      { "name": "Karnal", "code": "061", "blocks": [{ "name": "Gharaunda", "code": "0611", "villages": [{ "name": "Bastara", "code": "0611001" }] }, { "name": "Assandh", "code": "0612", "villages": [{ "name": "Salwan", "code": "0612001" }] }, { "name": "Nilokheri", "code": "0613", "villages": [{ "name": "Taraori", "code": "0613001" }] }] },
+      { "name": "Hisar", "code": "062", "blocks": [{ "name": "Hansi", "code": "0621", "villages": [{ "name": "Sisai", "code": "0621001" }] }, { "name": "Barwala", "code": "0622", "villages": [{ "name": "Khedar", "code": "0622001" }] }] },
+      { "name": "Ambala", "code": "063", "blocks": [{ "name": "Barara", "code": "0631", "villages": [{ "name": "Mullana", "code": "0631001" }] }, { "name": "Naraingarh", "code": "0632", "villages": [{ "name": "Shahzadpur", "code": "0632001" }] }] },
+      { "name": "Sirsa", "code": "064", "blocks": [{ "name": "Dabwali", "code": "0641", "villages": [{ "name": "Kalanwali", "code": "0641001" }] }, { "name": "Ellenabad", "code": "0642", "villages": [{ "name": "Rania", "code": "0642001" }] }] },
+      { "name": "Rohtak", "code": "065", "blocks": [{ "name": "Meham", "code": "0651", "villages": [{ "name": "Kalanaur", "code": "0651001" }] }, { "name": "Sampla", "code": "0652", "villages": [{ "name": "Kharawar", "code": "0652001" }] }] },
+      { "name": "Kurukshetra", "code": "066", "blocks": [{ "name": "Pehowa", "code": "0661", "villages": [{ "name": "Ismailabad", "code": "0661001" }] }, { "name": "Shahbad", "code": "0662", "villages": [{ "name": "Babain", "code": "0662001" }] }] },
+      { "name": "Jind", "code": "067", "blocks": [{ "name": "Narwana", "code": "0671", "villages": [{ "name": "Uchana", "code": "0671001" }] }, { "name": "Safidon", "code": "0672", "villages": [{ "name": "Julana", "code": "0672001" }] }] },
+      { "name": "Panipat", "code": "068", "blocks": [{ "name": "Samalkha", "code": "0681", "villages": [{ "name": "Israna", "code": "0681001" }] }, { "name": "Bapoli", "code": "0682", "villages": [{ "name": "Madlauda", "code": "0682001" }] }] },
+      { "name": "Sonipat", "code": "069", "blocks": [{ "name": "Gohana", "code": "0691", "villages": [{ "name": "Ganaur", "code": "0691001" }] }] },
+      { "name": "Fatehabad", "code": "0610", "blocks": [{ "name": "Tohana", "code": "06101", "villages": [{ "name": "Ratia", "code": "0610101" }] }] }
+    ]
+  },
+  {
+    "state": "Rajasthan",
+    "stateCode": "08",
+    "districts": [
+      { "name": "Jaipur", "code": "081", "blocks": [{ "name": "Chomu", "code": "0811", "villages": [{ "name": "Morija", "code": "0811001" }] }, { "name": "Kotputli", "code": "0812", "villages": [{ "name": "Shahpura", "code": "0812001" }] }, { "name": "Sanganer", "code": "0813", "villages": [{ "name": "Bassi", "code": "0813001" }] }] },
+      { "name": "Sri Ganganagar", "code": "082", "blocks": [{ "name": "Suratgarh", "code": "0821", "villages": [{ "name": "Padampur", "code": "0821001" }] }, { "name": "Raisinghnagar", "code": "0822", "villages": [{ "name": "Anupgarh", "code": "0822001" }] }] },
+      { "name": "Hanumangarh", "code": "083", "blocks": [{ "name": "Nohar", "code": "0831", "villages": [{ "name": "Bhadra", "code": "0831001" }] }, { "name": "Pilibanga", "code": "0832", "villages": [{ "name": "Sangaria", "code": "0832001" }] }] },
+      { "name": "Kota", "code": "084", "blocks": [{ "name": "Sangod", "code": "0841", "villages": [{ "name": "Ramganj Mandi", "code": "0841001" }] }, { "name": "Digod", "code": "0842", "villages": [{ "name": "Itawa", "code": "0842001" }] }] },
+      { "name": "Jodhpur", "code": "085", "blocks": [{ "name": "Bilara", "code": "0851", "villages": [{ "name": "Piparcity", "code": "0851001" }] }, { "name": "Osian", "code": "0852", "villages": [{ "name": "Phalodi", "code": "0852001" }] }] },
+      { "name": "Bikaner", "code": "086", "blocks": [{ "name": "Nokha", "code": "0861", "villages": [{ "name": "Lunkaransar", "code": "0861001" }] }, { "name": "Kolayat", "code": "0862", "villages": [{ "name": "Khajuwala", "code": "0862001" }] }] },
+      { "name": "Alwar", "code": "087", "blocks": [{ "name": "Tijara", "code": "0871", "villages": [{ "name": "Behror", "code": "0871001" }] }, { "name": "Kishangarh Bas", "code": "0872", "villages": [{ "name": "Ramgarh", "code": "0872001" }] }] },
+      { "name": "Nagaur", "code": "088", "blocks": [{ "name": "Merta", "code": "0881", "villages": [{ "name": "Degana", "code": "0881001" }] }, { "name": "Didwana", "code": "0882", "villages": [{ "name": "Ladnun", "code": "0882001" }] }] },
+      { "name": "Udaipur", "code": "089", "blocks": [{ "name": "Mavli", "code": "0891", "villages": [{ "name": "Vallabhnagar", "code": "0891001" }] }] },
+      { "name": "Bharatpur", "code": "0810", "blocks": [{ "name": "Bayana", "code": "08101", "villages": [{ "name": "Deeg", "code": "0810101" }] }] }
+    ]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "stateCode": "23",
+    "districts": [
+      { "name": "Bhopal", "code": "231", "blocks": [{ "name": "Berasia", "code": "2311", "villages": [{ "name": "Runaha", "code": "2311001" }] }, { "name": "Phanda", "code": "2312", "villages": [{ "name": "Kolar", "code": "2312001" }] }] },
+      { "name": "Indore", "code": "232", "blocks": [{ "name": "Sanwer", "code": "2321", "villages": [{ "name": "Kshipra", "code": "2321001" }] }, { "name": "Depalpur", "code": "2322", "villages": [{ "name": "Betma", "code": "2322001" }] }, { "name": "Mhow", "code": "2323", "villages": [{ "name": "Manpur", "code": "2323001" }] }] },
+      { "name": "Ujjain", "code": "233", "blocks": [{ "name": "Mahidpur", "code": "2331", "villages": [{ "name": "Tarana", "code": "2331001" }] }, { "name": "Nagda", "code": "2332", "villages": [{ "name": "Khachrod", "code": "2332001" }] }] },
+      { "name": "Hoshangabad", "code": "234", "blocks": [{ "name": "Itarsi", "code": "2341", "villages": [{ "name": "Pipariya", "code": "2341001" }] }, { "name": "Babai", "code": "2342", "villages": [{ "name": "Sohagpur", "code": "2342001" }] }] },
+      { "name": "Jabalpur", "code": "235", "blocks": [{ "name": "Patan", "code": "2351", "villages": [{ "name": "Shahpura", "code": "2351001" }] }, { "name": "Sihora", "code": "2352", "villages": [{ "name": "Majholi", "code": "2352001" }] }] },
+      { "name": "Gwalior", "code": "236", "blocks": [{ "name": "Dabra", "code": "2361", "villages": [{ "name": "Bhitarwar", "code": "2361001" }] }] },
+      { "name": "Sagar", "code": "237", "blocks": [{ "name": "Bina", "code": "2371", "villages": [{ "name": "Khurai", "code": "2371001" }] }] },
+      { "name": "Sehore", "code": "238", "blocks": [{ "name": "Ashta", "code": "2381", "villages": [{ "name": "Ichhawar", "code": "2381001" }] }] },
+      { "name": "Dewas", "code": "239", "blocks": [{ "name": "Sonkatch", "code": "2391", "villages": [{ "name": "Bagli", "code": "2391001" }] }] },
+      { "name": "Dhar", "code": "2310", "blocks": [{ "name": "Badnawar", "code": "23101", "villages": [{ "name": "Kukshi", "code": "2310101" }] }] }
+    ]
+  },
+  {
+    "state": "Maharashtra",
+    "stateCode": "27",
+    "districts": [
+      { "name": "Pune", "code": "271", "blocks": [{ "name": "Baramati", "code": "2711", "villages": [{ "name": "Malegaon", "code": "2711001" }] }, { "name": "Shirur", "code": "2712", "villages": [{ "name": "Ranjangaon", "code": "2712001" }] }, { "name": "Indapur", "code": "2713", "villages": [{ "name": "Bhigwan", "code": "2713001" }] }, { "name": "Daund", "code": "2714", "villages": [{ "name": "Kedgaon", "code": "2714001" }] }] },
+      { "name": "Nashik", "code": "272", "blocks": [{ "name": "Niphad", "code": "2721", "villages": [{ "name": "Pimpalgaon", "code": "2721001" }] }, { "name": "Dindori", "code": "2722", "villages": [{ "name": "Vani", "code": "2722001" }] }, { "name": "Malegaon", "code": "2723", "villages": [{ "name": "Satana", "code": "2723001" }] }] },
+      { "name": "Kolhapur", "code": "273", "blocks": [{ "name": "Kagal", "code": "2731", "villages": [{ "name": "Murgud", "code": "2731001" }] }, { "name": "Hatkanangale", "code": "2732", "villages": [{ "name": "Ichalkaranji", "code": "2732001" }] }, { "name": "Shirol", "code": "2733", "villages": [{ "name": "Jaysingpur", "code": "2733001" }] }] },
+      { "name": "Ahmednagar", "code": "274", "blocks": [{ "name": "Rahata", "code": "2741", "villages": [{ "name": "Shirdi", "code": "2741001" }] }, { "name": "Sangamner", "code": "2742", "villages": [{ "name": "Akole", "code": "2742001" }] }, { "name": "Kopargaon", "code": "2743", "villages": [{ "name": "Shrirampur", "code": "2743001" }] }] },
+      { "name": "Solapur", "code": "275", "blocks": [{ "name": "Pandharpur", "code": "2751", "villages": [{ "name": "Kasegaon", "code": "2751001" }] }, { "name": "Barshi", "code": "2752", "villages": [{ "name": "Kurduvadi", "code": "2752001" }] }] },
+      { "name": "Nagpur", "code": "276", "blocks": [{ "name": "Katol", "code": "2761", "villages": [{ "name": "Narkhed", "code": "2761001" }] }, { "name": "Umred", "code": "2762", "villages": [{ "name": "Ramtek", "code": "2762001" }] }] },
+      { "name": "Chhatrapati Sambhaji Nagar", "code": "277", "blocks": [{ "name": "Gangapur", "code": "2771", "villages": [{ "name": "Vaijapur", "code": "2771001" }] }, { "name": "Paithan", "code": "2772", "villages": [{ "name": "Bidkin", "code": "2772001" }] }] },
+      { "name": "Satara", "code": "278", "blocks": [{ "name": "Karad", "code": "2781", "villages": [{ "name": "Phaltan", "code": "2781001" }] }] },
+      { "name": "Sangli", "code": "279", "blocks": [{ "name": "Miraj", "code": "2791", "villages": [{ "name": "Tasgaon", "code": "2791001" }] }] },
+      { "name": "Jalgaon", "code": "2710", "blocks": [{ "name": "Bhusawal", "code": "27101", "villages": [{ "name": "Raver", "code": "2710101" }] }] }
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "stateCode": "24",
+    "districts": [
+      { "name": "Ahmedabad", "code": "241", "blocks": [{ "name": "Dholka", "code": "2411", "villages": [{ "name": "Koth", "code": "2411001" }] }, { "name": "Sanand", "code": "2412", "villages": [{ "name": "Viramgam", "code": "2412001" }] }, { "name": "Daskroi", "code": "2413", "villages": [{ "name": "Bareja", "code": "2413001" }] }] },
+      { "name": "Rajkot", "code": "242", "blocks": [{ "name": "Gondal", "code": "2421", "villages": [{ "name": "Dhoraji", "code": "2421001" }] }, { "name": "Jetpur", "code": "2422", "villages": [{ "name": "Upleta", "code": "2422001" }] }] },
+      { "name": "Surat", "code": "243", "blocks": [{ "name": "Bardoli", "code": "2431", "villages": [{ "name": "Mahuva", "code": "2431001" }] }, { "name": "Mandvi", "code": "2432", "villages": [{ "name": "Mangrol", "code": "2432001" }] }] },
+      { "name": "Vadodara", "code": "244", "blocks": [{ "name": "Padra", "code": "2441", "villages": [{ "name": "Karjan", "code": "2441001" }] }, { "name": "Dabhoi", "code": "2442", "villages": [{ "name": "Savli", "code": "2442001" }] }] },
+      { "name": "Mehsana", "code": "245", "blocks": [{ "name": "Visnagar", "code": "2451", "villages": [{ "name": "Kadi", "code": "2451001" }] }, { "name": "Unjha", "code": "2452", "villages": [{ "name": "Becharaji", "code": "2452001" }] }] },
+      { "name": "Anand", "code": "246", "blocks": [{ "name": "Borsad", "code": "2461", "villages": [{ "name": "Petlad", "code": "2461001" }] }, { "name": "Khambhat", "code": "2462", "villages": [{ "name": "Umreth", "code": "2462001" }] }] },
+      { "name": "Junagadh", "code": "247", "blocks": [{ "name": "Keshod", "code": "2471", "villages": [{ "name": "Mangrol", "code": "2471001" }] }, { "name": "Visavadar", "code": "2472", "villages": [{ "name": "Malia", "code": "2472001" }] }] },
+      { "name": "Banaskantha", "code": "248", "blocks": [{ "name": "Palanpur", "code": "2481", "villages": [{ "name": "Deesa", "code": "2481001" }] }] },
+      { "name": "Bhavnagar", "code": "249", "blocks": [{ "name": "Mahuva", "code": "2491", "villages": [{ "name": "Talaja", "code": "2491001" }] }] }
+    ]
+  },
+  {
+    "state": "Bihar",
+    "stateCode": "10",
+    "districts": [
+      { "name": "Patna", "code": "101", "blocks": [{ "name": "Barh", "code": "1011", "villages": [{ "name": "Mokama", "code": "1011001" }] }, { "name": "Danapur", "code": "1012", "villages": [{ "name": "Maner", "code": "1012001" }] }, { "name": "Masaurhi", "code": "1013", "villages": [{ "name": "Paliganj", "code": "1013001" }] }] },
+      { "name": "Muzaffarpur", "code": "102", "blocks": [{ "name": "Kanti", "code": "1021", "villages": [{ "name": "Motipur", "code": "1021001" }] }, { "name": "Sakra", "code": "1022", "villages": [{ "name": "Kurhani", "code": "1022001" }] }] },
+      { "name": "Gaya", "code": "103", "blocks": [{ "name": "Bodh Gaya", "code": "1031", "villages": [{ "name": "Tekari", "code": "1031001" }] }, { "name": "Sherghati", "code": "1032", "villages": [{ "name": "Wazirganj", "code": "1032001" }] }] },
+      { "name": "Bhagalpur", "code": "104", "blocks": [{ "name": "Naugachhia", "code": "1041", "villages": [{ "name": "Kahalgaon", "code": "1041001" }] }, { "name": "Sultanganj", "code": "1042", "villages": [{ "name": "Sabour", "code": "1042001" }] }] },
+      { "name": "Darbhanga", "code": "105", "blocks": [{ "name": "Benipur", "code": "1051", "villages": [{ "name": "Biraul", "code": "1051001" }] }, { "name": "Hayaghat", "code": "1052", "villages": [{ "name": "Baheri", "code": "1052001" }] }] },
+      { "name": "Rohtas", "code": "106", "blocks": [{ "name": "Sasaram", "code": "1061", "villages": [{ "name": "Dehri", "code": "1061001" }] }, { "name": "Bikramganj", "code": "1062", "villages": [{ "name": "Nokha", "code": "1062001" }] }] },
+      { "name": "Purnia", "code": "107", "blocks": [{ "name": "Banmankhi", "code": "1071", "villages": [{ "name": "Kasba", "code": "1071001" }] }] },
+      { "name": "Samastipur", "code": "108", "blocks": [{ "name": "Rosera", "code": "1081", "villages": [{ "name": "Dalsinghsarai", "code": "1081001" }] }] },
+      { "name": "Nalanda", "code": "109", "blocks": [{ "name": "Biharsharif", "code": "1091", "villages": [{ "name": "Rajgir", "code": "1091001" }] }] }
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "stateCode": "19",
+    "districts": [
+      { "name": "Purba Bardhaman", "code": "191", "blocks": [{ "name": "Kalna", "code": "1911", "villages": [{ "name": "Katwa", "code": "1911001" }] }, { "name": "Memari", "code": "1912", "villages": [{ "name": "Raina", "code": "1912001" }] }] },
+      { "name": "Hooghly", "code": "192", "blocks": [{ "name": "Arambagh", "code": "1921", "villages": [{ "name": "Pursurah", "code": "1921001" }] }, { "name": "Tarakeswar", "code": "1922", "villages": [{ "name": "Haripal", "code": "1922001" }] }] },
+      { "name": "Nadia", "code": "193", "blocks": [{ "name": "Ranaghat", "code": "1931", "villages": [{ "name": "Santipur", "code": "1931001" }] }, { "name": "Tehatta", "code": "1932", "villages": [{ "name": "Krishnanagar", "code": "1932001" }] }] },
+      { "name": "Murshidabad", "code": "194", "blocks": [{ "name": "Berhampore", "code": "1941", "villages": [{ "name": "Kandi", "code": "1941001" }] }, { "name": "Lalgola", "code": "1942", "villages": [{ "name": "Jiaganj", "code": "1942001" }] }] },
+      { "name": "North 24 Parganas", "code": "195", "blocks": [{ "name": "Barasat", "code": "1951", "villages": [{ "name": "Basirhat", "code": "1951001" }] }] },
+      { "name": "Malda", "code": "196", "blocks": [{ "name": "Chanchal", "code": "1961", "villages": [{ "name": "Harishchandrapur", "code": "1961001" }] }] }
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "stateCode": "29",
+    "districts": [
+      { "name": "Belagavi", "code": "291", "blocks": [{ "name": "Chikkodi", "code": "2911", "villages": [{ "name": "Athani", "code": "2911001" }] }, { "name": "Gokak", "code": "2912", "villages": [{ "name": "Hukkeri", "code": "2912001" }] }] },
+      { "name": "Mysuru", "code": "292", "blocks": [{ "name": "Nanjangud", "code": "2921", "villages": [{ "name": "Hunsur", "code": "2921001" }] }, { "name": "T Narasipura", "code": "2922", "villages": [{ "name": "KR Nagar", "code": "2922001" }] }] },
+      { "name": "Mandya", "code": "293", "blocks": [{ "name": "Maddur", "code": "2931", "villages": [{ "name": "Pandavapura", "code": "2931001" }] }, { "name": "Malavalli", "code": "2932", "villages": [{ "name": "Nagamangala", "code": "2932001" }] }] },
+      { "name": "Davanagere", "code": "294", "blocks": [{ "name": "Harihara", "code": "2941", "villages": [{ "name": "Channagiri", "code": "2941001" }] }, { "name": "Honnali", "code": "2942", "villages": [{ "name": "Jagalur", "code": "2942001" }] }] },
+      { "name": "Shivamogga", "code": "295", "blocks": [{ "name": "Bhadravati", "code": "2951", "villages": [{ "name": "Sagara", "code": "2951001" }] }, { "name": "Shikaripura", "code": "2952", "villages": [{ "name": "Soraba", "code": "2952001" }] }] },
+      { "name": "Vijayapura", "code": "296", "blocks": [{ "name": "Indi", "code": "2961", "villages": [{ "name": "Sindagi", "code": "2961001" }] }] },
+      { "name": "Tumakuru", "code": "297", "blocks": [{ "name": "Tiptur", "code": "2971", "villages": [{ "name": "Madhugiri", "code": "2971001" }] }] }
+    ]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "stateCode": "28",
+    "districts": [
+      { "name": "Guntur", "code": "281", "blocks": [{ "name": "Tenali", "code": "2811", "villages": [{ "name": "Narasaraopet", "code": "2811001" }] }, { "name": "Sattenapalle", "code": "2812", "villages": [{ "name": "Mangalagiri", "code": "2812001" }] }] },
+      { "name": "Krishna", "code": "282", "blocks": [{ "name": "Gudivada", "code": "2821", "villages": [{ "name": "Machilipatnam", "code": "2821001" }] }, { "name": "Nuzvid", "code": "2822", "villages": [{ "name": "Vuyyuru", "code": "2822001" }] }] },
+      { "name": "East Godavari", "code": "283", "blocks": [{ "name": "Rajahmundry", "code": "2831", "villages": [{ "name": "Kakinada", "code": "2831001" }] }, { "name": "Amalapuram", "code": "2832", "villages": [{ "name": "Mandapeta", "code": "2832001" }] }] },
+      { "name": "West Godavari", "code": "284", "blocks": [{ "name": "Eluru", "code": "2841", "villages": [{ "name": "Bhimavaram", "code": "2841001" }] }, { "name": "Tadepalligudem", "code": "2842", "villages": [{ "name": "Tanuku", "code": "2842001" }] }] },
+      { "name": "Kurnool", "code": "285", "blocks": [{ "name": "Nandyal", "code": "2851", "villages": [{ "name": "Adoni", "code": "2851001" }] }, { "name": "Yemmiganur", "code": "2852", "villages": [{ "name": "Dhone", "code": "2852001" }] }] }
+    ]
+  },
+  {
+    "state": "Telangana",
+    "stateCode": "36",
+    "districts": [
+      { "name": "Warangal", "code": "361", "blocks": [{ "name": "Narsampet", "code": "3611", "villages": [{ "name": "Parkal", "code": "3611001" }] }, { "name": "Wardhannapet", "code": "3612", "villages": [{ "name": "Geesugonda", "code": "3612001" }] }] },
+      { "name": "Karimnagar", "code": "362", "blocks": [{ "name": "Huzurabad", "code": "3621", "villages": [{ "name": "Jammikunta", "code": "3621001" }] }, { "name": "Choppadandi", "code": "3622", "villages": [{ "name": "Manakondur", "code": "3622001" }] }] },
+      { "name": "Nalgonda", "code": "363", "blocks": [{ "name": "Miryalaguda", "code": "3631", "villages": [{ "name": "Devarakonda", "code": "3631001" }] }, { "name": "Nakrekal", "code": "3632", "villages": [{ "name": "Haliya", "code": "3632001" }] }] },
+      { "name": "Khammam", "code": "364", "blocks": [{ "name": "Madhira", "code": "3641", "villages": [{ "name": "Sathupalli", "code": "3641001" }] }, { "name": "Kallur", "code": "3642", "villages": [{ "name": "Wyra", "code": "3642001" }] }] },
+      { "name": "Nizamabad", "code": "365", "blocks": [{ "name": "Bodhan", "code": "3651", "villages": [{ "name": "Armoor", "code": "3651001" }] }, { "name": "Banswada", "code": "3652", "villages": [{ "name": "Kamareddy", "code": "3652001" }] }] }
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "stateCode": "33",
+    "districts": [
+      { "name": "Thanjavur", "code": "331", "blocks": [{ "name": "Kumbakonam", "code": "3311", "villages": [{ "name": "Papanasam", "code": "3311001" }] }, { "name": "Pattukkottai", "code": "3312", "villages": [{ "name": "Orathanadu", "code": "3312001" }] }] },
+      { "name": "Coimbatore", "code": "332", "blocks": [{ "name": "Pollachi", "code": "3321", "villages": [{ "name": "Sulur", "code": "3321001" }] }, { "name": "Mettupalayam", "code": "3322", "villages": [{ "name": "Annur", "code": "3322001" }] }] },
+      { "name": "Salem", "code": "333", "blocks": [{ "name": "Attur", "code": "3331", "villages": [{ "name": "Mettur", "code": "3331001" }] }, { "name": "Omalur", "code": "3332", "villages": [{ "name": "Edappadi", "code": "3332001" }] }] },
+      { "name": "Tiruchirappalli", "code": "334", "blocks": [{ "name": "Manapparai", "code": "3341", "villages": [{ "name": "Musiri", "code": "3341001" }] }, { "name": "Lalgudi", "code": "3342", "villages": [{ "name": "Thuraiyur", "code": "3342001" }] }] },
+      { "name": "Madurai", "code": "335", "blocks": [{ "name": "Melur", "code": "3351", "villages": [{ "name": "Usilampatti", "code": "3351001" }] }] }
+    ]
+  },
+  {
+    "state": "Kerala",
+    "stateCode": "32",
+    "districts": [
+      { "name": "Palakkad", "code": "321", "blocks": [{ "name": "Chittur", "code": "3211", "villages": [{ "name": "Alathur", "code": "3211001" }] }, { "name": "Ottapalam", "code": "3212", "villages": [{ "name": "Mannarkkad", "code": "3212001" }] }] },
+      { "name": "Thrissur", "code": "322", "blocks": [{ "name": "Chalakudy", "code": "3221", "villages": [{ "name": "Kodungallur", "code": "3221001" }] }, { "name": "Kunnamkulam", "code": "3222", "villages": [{ "name": "Wadakkanchery", "code": "3222001" }] }] },
+      { "name": "Alappuzha", "code": "323", "blocks": [{ "name": "Kuttanad", "code": "3231", "villages": [{ "name": "Chengannur", "code": "3231001" }] }, { "name": "Mavelikkara", "code": "3232", "villages": [{ "name": "Cherthala", "code": "3232001" }] }] },
+      { "name": "Wayanad", "code": "324", "blocks": [{ "name": "Sulthan Bathery", "code": "3241", "villages": [{ "name": "Mananthavady", "code": "3241001" }] }] }
+    ]
+  },
+  {
+    "state": "Odisha",
+    "stateCode": "21",
+    "districts": [
+      { "name": "Bargarh", "code": "211", "blocks": [{ "name": "Attabira", "code": "2111", "villages": [{ "name": "Barpali", "code": "2111001" }] }, { "name": "Padampur", "code": "2112", "villages": [{ "name": "Bhatli", "code": "2112001" }] }] },
+      { "name": "Sambalpur", "code": "212", "blocks": [{ "name": "Kuchinda", "code": "2121", "villages": [{ "name": "Rengali", "code": "2121001" }] }, { "name": "Dhankauda", "code": "2122", "villages": [{ "name": "Maneswar", "code": "2122001" }] }] },
+      { "name": "Cuttack", "code": "213", "blocks": [{ "name": "Athagarh", "code": "2131", "villages": [{ "name": "Banki", "code": "2131001" }] }] },
+      { "name": "Balasore", "code": "214", "blocks": [{ "name": "Basta", "code": "2141", "villages": [{ "name": "Jaleswar", "code": "2141001" }] }] }
+    ]
+  },
+  {
+    "state": "Chhattisgarh",
+    "stateCode": "22",
+    "districts": [
+      { "name": "Raipur", "code": "221", "blocks": [{ "name": "Arang", "code": "2211", "villages": [{ "name": "Abhanpur", "code": "2211001" }] }, { "name": "Tilda", "code": "2212", "villages": [{ "name": "Dharsiwa", "code": "2212001" }] }] },
+      { "name": "Durg", "code": "222", "blocks": [{ "name": "Patan", "code": "2221", "villages": [{ "name": "Dhamdha", "code": "2221001" }] }] },
+      { "name": "Bilaspur", "code": "223", "blocks": [{ "name": "Kota", "code": "2231", "villages": [{ "name": "Takhatpur", "code": "2231001" }] }] },
+      { "name": "Rajnandgaon", "code": "224", "blocks": [{ "name": "Dongargarh", "code": "2241", "villages": [{ "name": "Khairagarh", "code": "2241001" }] }] }
+    ]
+  },
+  {
+    "state": "Jharkhand",
+    "stateCode": "20",
+    "districts": [
+      { "name": "Ranchi", "code": "201", "blocks": [{ "name": "Kanke", "code": "2011", "villages": [{ "name": "Ormanjhi", "code": "2011001" }] }, { "name": "Mandar", "code": "2012", "villages": [{ "name": "Bero", "code": "2012001" }] }] },
+      { "name": "Hazaribagh", "code": "202", "blocks": [{ "name": "Barhi", "code": "2021", "villages": [{ "name": "Barkagaon", "code": "2021001" }] }] },
+      { "name": "Dhanbad", "code": "203", "blocks": [{ "name": "Govindpur", "code": "2031", "villages": [{ "name": "Tundi", "code": "2031001" }] }] }
+    ]
+  },
+  {
+    "state": "Uttarakhand",
+    "stateCode": "05",
+    "districts": [
+      { "name": "Udham Singh Nagar", "code": "051", "blocks": [{ "name": "Kashipur", "code": "0511", "villages": [{ "name": "Rudrapur", "code": "0511001" }] }, { "name": "Kichha", "code": "0512", "villages": [{ "name": "Sitarganj", "code": "0512001" }] }, { "name": "Bajpur", "code": "0513", "villages": [{ "name": "Jaspur", "code": "0513001" }] }] },
+      { "name": "Haridwar", "code": "052", "blocks": [{ "name": "Roorkee", "code": "0521", "villages": [{ "name": "Laksar", "code": "0521001" }] }, { "name": "Bhagwanpur", "code": "0522", "villages": [{ "name": "Manglaur", "code": "0522001" }] }] },
+      { "name": "Dehradun", "code": "053", "blocks": [{ "name": "Vikasnagar", "code": "0531", "villages": [{ "name": "Doiwala", "code": "0531001" }] }] },
+      { "name": "Nainital", "code": "054", "blocks": [{ "name": "Haldwani", "code": "0541", "villages": [{ "name": "Ramnagar", "code": "0541001" }] }] }
+    ]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "stateCode": "02",
+    "districts": [
+      { "name": "Kangra", "code": "021", "blocks": [{ "name": "Nurpur", "code": "0211", "villages": [{ "name": "Palampur", "code": "0211001" }] }, { "name": "Dehra", "code": "0212", "villages": [{ "name": "Fatehpur", "code": "0212001" }] }] },
+      { "name": "Una", "code": "022", "blocks": [{ "name": "Amb", "code": "0221", "villages": [{ "name": "Haroli", "code": "0221001" }] }] },
+      { "name": "Solan", "code": "023", "blocks": [{ "name": "Nalagarh", "code": "0231", "villages": [{ "name": "Baddi", "code": "0231001" }] }] },
+      { "name": "Mandi", "code": "024", "blocks": [{ "name": "Sundernagar", "code": "0241", "villages": [{ "name": "Sarkaghat", "code": "0241001" }] }] }
+    ]
+  },
+  {
+    "state": "Assam",
+    "stateCode": "18",
+    "districts": [
+      { "name": "Nagaon", "code": "181", "blocks": [{ "name": "Kaliabor", "code": "1811", "villages": [{ "name": "Raha", "code": "1811001" }] }, { "name": "Samaguri", "code": "1812", "villages": [{ "name": "Dhing", "code": "1812001" }] }] },
+      { "name": "Sonitpur", "code": "182", "blocks": [{ "name": "Tezpur", "code": "1821", "villages": [{ "name": "Dhekiajuli", "code": "1821001" }] }] },
+      { "name": "Kamrup", "code": "183", "blocks": [{ "name": "Rangia", "code": "1831", "villages": [{ "name": "Hajo", "code": "1831001" }] }] }
+    ]
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "stateCode": "01",
+    "districts": [
+      { "name": "Jammu", "code": "011", "blocks": [{ "name": "R S Pura", "code": "0111", "villages": [{ "name": "Bishnah", "code": "0111001" }] }, { "name": "Akhnoor", "code": "0112", "villages": [{ "name": "Marh", "code": "0112001" }] }] },
+      { "name": "Kathua", "code": "012", "blocks": [{ "name": "Hiranagar", "code": "0121", "villages": [{ "name": "Billawar", "code": "0121001" }] }] },
+      { "name": "Anantnag", "code": "013", "blocks": [{ "name": "Bijbehara", "code": "0131", "villages": [{ "name": "Dooru", "code": "0131001" }] }] }
+    ]
+  },
+  {
+    "state": "Delhi",
+    "stateCode": "07",
+    "districts": [
+      { "name": "North West Delhi", "code": "071", "blocks": [{ "name": "Alipur", "code": "0711", "villages": [{ "name": "Bakhtawarpur", "code": "0711001" }] }, { "name": "Kanjhawala", "code": "0712", "villages": [{ "name": "Bawana", "code": "0712001" }] }] },
+      { "name": "South West Delhi", "code": "072", "blocks": [{ "name": "Najafgarh", "code": "0721", "villages": [{ "name": "Chhawla", "code": "0721001" }, { "name": "Dhansa", "code": "0721002" }] }] }
+    ]
+  },
+  {
+    "state": "Goa",
+    "stateCode": "30",
+    "districts": [
+      { "name": "North Goa", "code": "301", "blocks": [{ "name": "Bicholim", "code": "3011", "villages": [{ "name": "Pernem", "code": "3011001" }] }] },
+      { "name": "South Goa", "code": "302", "blocks": [{ "name": "Ponda", "code": "3021", "villages": [{ "name": "Quepem", "code": "3021001" }] }] }
+    ]
+  },
+  {
+    "state": "Ladakh",
+    "stateCode": "37",
+    "districts": [
+      {
+        "name": "Leh",
+        "code": "371",
+        "blocks": [
+          { "name": "Leh", "code": "3711" },
+          { "name": "Khaltsi", "code": "3712" },
+          { "name": "Nubra", "code": "3713" },
+          { "name": "Nyoma", "code": "3714" },
+          { "name": "Durbuk", "code": "3715" },
+          { "name": "Kharu", "code": "3716" }
+        ]
+      },
+      {
+        "name": "Kargil",
+        "code": "372",
+        "blocks": [
+          { "name": "Kargil", "code": "3721" },
+          { "name": "Drass", "code": "3722" },
+          { "name": "Sankoo", "code": "3723" },
+          { "name": "Shakar Chiktan", "code": "3724" },
+          { "name": "Zanskar", "code": "3725" }
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Chandigarh",
+    "stateCode": "04",
+    "districts": [
+      {
+        "name": "Chandigarh",
+        "code": "041",
+        "blocks": [
+          { "name": "Chandigarh Urban", "code": "0411" },
+          { "name": "Manimajra", "code": "0412" }
+        ]
+      }
+    ]
+  }
+]
+

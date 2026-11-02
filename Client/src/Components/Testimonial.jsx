@@ -1,52 +1,96 @@
-import Title from './Title';
-import {motion} from 'motion/react'
+import { Star } from 'lucide-react';
+import { assets } from '../assets/assets';
+import { useAppContext } from '../context/AppContext';
 
 const Testimonial = () => {
-    const testimonials = [
-        {name: "Emma Rodriguez", location: "Barcelona, Spain", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: "Exceptional service and attention to detail. Everything was handled professionally and efficiently from start to finish. Highly recommended!" },
-        {name: "Liam Johnson", location: "New York, USA", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: "I’m truly impressed by the quality and consistency. The entire process was smooth, and the results exceeded all expectations. Thank you!" },
-        {name: "Sophia Lee", location: "Seoul, South Korea", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: "Fantastic experience! From start to finish, the team was professional, responsive, and genuinely cared about delivering great results." }
-    ];
+  const { language = 'en' } = useAppContext();
+
+  const testimonials = [
+    {
+      name: "Rameshwar Yadav",
+      location: "Sonbhadra, Uttar Pradesh",
+      role: language === 'hi' ? "गेहूं व धान किसान (18 एकड़)" : "Wheat & Paddy Farmer (18 Acres)",
+      image: assets.user1,
+      rating: 5,
+      review: language === 'hi'
+        ? "हमने 18 एकड़ खेत की जुताई के लिए महिंद्रा अर्जुन 585 किराए पर लिया था। ट्रैक्टर समय पर सीधे खेत तक पहुंचा। भारतीय रुपयों में पारदर्शी दरें और बिना किसी अग्रिम अमानत के काम हुआ।"
+        : "Rented a Mahindra Arjun 585 for our 18-acre field plowing. The machinery arrived directly at our farm on time. Transparent pricing in Indian Rupees with zero deposit hassle."
+    },
+    {
+      name: "Balwant Singh",
+      location: "Gorakhpur, Uttar Pradesh",
+      role: language === 'hi' ? "फ्लीट मालिक (3 ट्रैक्टर)" : "Custom Hiring Fleet Owner (3 Tractors)",
+      image: assets.user2,
+      rating: 5,
+      review: language === 'hi'
+        ? "हमारे स्वराज और जॉन डियर ट्रैक्टर खाली समय में किराए पर देकर हमें हर सीजन में ₹65,000 की अतिरिक्त आमदनी होती है। भुगतान सीधे बैंक खाते में आता है।"
+        : "Listing our Swaraj and John Deere machinery during idle weeks generates over ₹65,000 extra income every harvest season. Payouts are credited directly to our bank account."
+    },
+    {
+      name: "Suresh Maurya",
+      location: "Varanasi, Uttar Pradesh",
+      role: language === 'hi' ? "सब्जी व नकदी फसल उत्पादक" : "Cash Crop & Vegetable Cultivator",
+      image: assets.user3,
+      rating: 5,
+      review: language === 'hi'
+        ? "मोबाइल से बुकिंग बहुत आसान रही। मैसी फर्ग्यूसन ट्रैक्टर और रोटावेटर की मदद से हमारी जुताई का काम आधे समय में पूरा हो गया।"
+        : "Booking via phone was seamless. The Massey Ferguson tractor with rotavator attachment helped us complete our pre-sowing plowing in half the usual time."
+    }
+  ];
+
   return (
-   <div className="flex flex-col mt-25">
-    <Title
-        title="What Our Former Guests Say"
-        subtitle="Discover why discerning travelers choose StayVenture for their comfortable accommodations around the world"/>
+    <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 antialiased">
+      
+      {/* Header */}
+      <div className="pb-4 border-b border-slate-200">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
+          {language === 'hi' ? 'किसान व फ्लीट मालिकों के अनुभव' : 'Verified Farmer & Fleet Owner Feedback'}
+        </h2>
+        <p className="text-xs sm:text-sm text-slate-500 mt-1">
+          {language === 'hi'
+            ? 'जानें कि उत्तर प्रदेश के सैकड़ों किसान और फ्लीट मालिक TractorRental पर क्यों भरोसा करते हैं।'
+            : 'Operational feedback from agricultural contractors and cultivators across Uttar Pradesh.'}
+        </p>
+      </div>
 
-    <div className="flex flex-wrap justify-center gap-8 mt-12 px-4 mb-20">
+      {/* Cards Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
         {testimonials.map((testimonial, index) => (
-            <motion.div
-            initial={{opacity: 0, y: 40}}
-            whileInView={{opacity: 1, y: 0}}
-            transition={{duration: 0.6, delay: index * 0.2, ease: 'easeOut'}}
-            viewport={{once: true, amount: 0.3}}
-                key={index}
-                className="bg-white p-6 rounded-xl shadow-lg hover:-translate-y-1 transition-all duration-500 w-full sm:w-75 md:w-87.5"
-            >
-                <div className="flex items-center gap-3">
-                    <img
-                        className="w-12 h-12 rounded-full object-cover"
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                    />
+          <div
+            key={index}
+            className="bg-white p-5 rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between"
+          >
+            <div>
+              {/* Star Rating */}
+              <div className="flex items-center gap-1 mb-3 text-amber-500">
+                {Array(5).fill(0).map((_, i) => (
+                  <Star key={i} className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
+                ))}
+              </div>
 
-                    <div>
-                        <p className="text-lg font-semibold">{testimonial.name}</p>
-                        <p className="text-gray-500 text-sm">{testimonial.location}</p>
-                    </div>
-                </div>
+              <p className="text-xs text-slate-600 leading-relaxed italic">
+                "{testimonial.review}"
+              </p>
+            </div>
 
-                <div className="flex items-center gap-1 mt-4">
-                    {Array(5).fill(0).map((_, index) => (
-                            <span key={index}className={testimonial.rating > index? "text-orange-500": "text-gray-300"}>★</span>
-                        ))}
-                </div>
-
-                <p className="text-gray-500 mt-4 font-light">"{testimonial.review}"</p>
-            </motion.div>
+            <div className="flex items-center gap-3 mt-5 pt-3 border-t border-slate-100">
+              <img
+                className="w-10 h-10 rounded-full object-cover border border-slate-200"
+                src={testimonial.image}
+                alt={testimonial.name}
+              />
+              <div>
+                <p className="text-xs font-bold text-slate-900">{testimonial.name}</p>
+                <p className="text-[11px] text-blue-700 font-medium">{testimonial.role}</p>
+                <p className="text-[10px] text-slate-400">{testimonial.location}</p>
+              </div>
+            </div>
+          </div>
         ))}
-    </div>
-</div>
-  )
-}
-export default Testimonial
+      </div>
+
+    </section>
+  );
+};
+
+export default Testimonial;

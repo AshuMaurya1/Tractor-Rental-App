@@ -1,15 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
-
 @import "tailwindcss"; 
 
-*{
-    font-family: 'Outfit', sans-serif;
+* {
+    font-family: 'Plus Jakarta Sans', 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-@theme{
-    --color-primary: #2563eb;
-    --color-primary-dull : #1E90FF80;
-    --color-light: #F0F0F0;
-    --color-borderColor: #f5f5f5;
+@theme {
+    --color-primary: #1d4ed8;
+    --color-primary-dark: #1e3a8a;
+    --color-primary-light: #eff6ff;
+    --color-agri-green: #15803d;
+    --color-agri-dark: #14532d;
+    --color-agri-light: #f0fdf4;
+    --color-earth-amber: #b45309;
+    --color-light: #f8fafc;
+    --color-borderColor: #e2e8f0;
+}
+
+body {
+    color: #1e293b;
+    background-color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+.owner-sidebar-nav {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+}
+
+.owner-sidebar-nav::-webkit-scrollbar {
+    width: 4px;
+}
+
+.owner-sidebar-nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.owner-sidebar-nav::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: #cbd5e1;
+}
+
+@media print {
+    body {
+        background: #ffffff !important;
+        color: #000000 !important;
+    }
+    header, footer, nav, aside, .no-print {
+        display: none !important;
+    }
+    .print-only {
+        display: block !important;
+    }
+    @page {
+        size: A4;
+        margin: 12mm 15mm;
+    }
 }

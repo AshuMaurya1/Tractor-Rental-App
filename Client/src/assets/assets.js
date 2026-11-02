@@ -55,6 +55,11 @@ import Eye_icon from './eye.svg'
 import Delete_icon from './trash.svg'
 import Booking from './department-store.svg'
 import Ace from './ACE_60HP.avif'
+import Banner1 from './Cover_Banner.png'
+import Banner2 from './Cover_Banner.svg'
+import Rental_Logo1 from './Rental_Icon.png'
+import Rental_Logo2 from './Rental_Icon.svg'
+import Rental_Logo3 from './Rental_Logo.svg'
 
 
 export const cityList = [
@@ -129,7 +134,12 @@ export const assets = {
     Eye_icon,
     Delete_icon,
     Booking ,
-    Ace
+    Ace,
+    Banner1,
+    Banner2,
+    Rental_Logo1,
+    Rental_Logo2,
+    Rental_Logo3,
 };
 
 export const assetes = assets;
@@ -314,7 +324,7 @@ export const dummyTractorData = [
     model: 'DI 275',
     category: 'Compact Tractor',
     year: 2023,
-    pricePerDay: 150,
+    pricePerDay: 1500,
     isAvailable: true,
     seatingCapacity: 2,
     fuelType: 'Diesel',
@@ -329,7 +339,7 @@ export const dummyTractorData = [
     model: 'MF 4708',
     category: 'Mid-Range Tractor',
     year: 2022,
-    pricePerDay: 200,
+    pricePerDay: 2000,
     isAvailable: true,
     seatingCapacity: 2,
     fuelType: 'Diesel',
@@ -344,7 +354,7 @@ export const dummyTractorData = [
     model: 'DI 735',
     category: 'Heavy Duty Tractor',
     year: 2021,
-    pricePerDay: 250,
+    pricePerDay: 2500,
     isAvailable: true,
     seatingCapacity: 2,
     fuelType: 'Diesel',
@@ -359,7 +369,7 @@ export const dummyTractorData = [
     model: 'Arjun Yovo Di585',
     category: 'Premium Tractor',
     year: 2023,
-    pricePerDay: 300,
+    pricePerDay: 3000,
     isAvailable: false,
     seatingCapacity: 3,
     fuelType: 'Diesel',
@@ -374,7 +384,7 @@ export const dummyTractorData = [
     model: 'DI 265',
     category: 'Farm Tractor',
     year: 2022,
-    pricePerDay: 120,
+    pricePerDay: 1200,
     isAvailable: true,
     seatingCapacity: 2,
     fuelType: 'Diesel',
@@ -389,7 +399,7 @@ export const dummyTractorData = [
     model: ' 5050D',
     category: 'Advanced Tractor',
     year: 2023,
-    pricePerDay: 280,
+    pricePerDay: 2800,
     isAvailable: true,
     seatingCapacity: 2,
     fuelType: 'Diesel',
@@ -404,7 +414,7 @@ export const dummyTractorData = [
     model: 'Tiger 60',
     category: 'Utility Tractor',
     year: 2021,
-    pricePerDay: 180,
+    pricePerDay: 1800,
     isAvailable: true,
     seatingCapacity: 2,
     fuelType: 'Diesel',
@@ -433,8 +443,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-20",
     endDate: "2026-06-25",
     totalDays: 5,
-    pricePerDay: 150,
-    totalAmount: 750,
+    pricePerDay: 1500,
+    totalAmount: 7500,
     status: "Confirmed",
   },
   {
@@ -449,8 +459,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-22",
     endDate: "2026-06-27",
     totalDays: 5,
-    pricePerDay: 180,
-    totalAmount: 900,
+    pricePerDay: 1800,
+    totalAmount: 9000,
     status: "Pending",
   },
   {
@@ -465,8 +475,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-12",
     endDate: "2026-06-16",
     totalDays: 4,
-    pricePerDay: 120,
-    totalAmount: 480,
+    pricePerDay: 1200,
+    totalAmount: 4800,
     status: "Completed",
   },
   {
@@ -481,8 +491,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-25",
     endDate: "2026-06-30",
     totalDays: 5,
-    pricePerDay: 140,
-    totalAmount: 700,
+    pricePerDay: 1400,
+    totalAmount: 7000,
     status: "Confirmed",
   },
   {
@@ -497,8 +507,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-23",
     endDate: "2026-06-28",
     totalDays: 5,
-    pricePerDay: 170,
-    totalAmount: 850,
+    pricePerDay: 1700,
+    totalAmount: 8500,
     status: "Pending",
   },
   {
@@ -513,8 +523,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-14",
     endDate: "2026-06-19",
     totalDays: 5,
-    pricePerDay: 160,
-    totalAmount: 800,
+    pricePerDay: 1600,
+    totalAmount: 8000,
     status: "Completed",
   },
   {
@@ -529,8 +539,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-26",
     endDate: "2026-06-29",
     totalDays: 3,
-    pricePerDay: 130,
-    totalAmount: 390,
+    pricePerDay: 1300,
+    totalAmount: 3900,
     status: "Confirmed",
   },
   {
@@ -545,8 +555,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-18",
     endDate: "2026-06-22",
     totalDays: 4,
-    pricePerDay: 145,
-    totalAmount: 580,
+    pricePerDay: 1450,
+    totalAmount: 5800,
     status: "Cancelled",
   },
   {
@@ -561,8 +571,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-24",
     endDate: "2026-06-27",
     totalDays: 3,
-    pricePerDay: 110,
-    totalAmount: 330,
+    pricePerDay: 1100,
+    totalAmount: 3300,
     status: "Pending",
   },
   {
@@ -577,8 +587,8 @@ export const dummyMyBookingData = [
     startDate: "2026-06-15",
     endDate: "2026-06-20",
     totalDays: 5,
-    pricePerDay: 155,
-    totalAmount: 775,
+    pricePerDay: 1550,
+    totalAmount: 7750,
     status: "Completed",
   }
 ];

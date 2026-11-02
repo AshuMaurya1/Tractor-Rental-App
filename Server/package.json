@@ -6,7 +6,11 @@
   "scripts": {
     "server": "nodemon server.js",
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed:superadmin": "node -e \"import('./config/seedSuperAdmin.js').then(async ({ ensureSuperAdminExists }) => { await ensureSuperAdminExists(); process.exit(0); })\"",
+    "locations:seed": "node scripts/seedLocations.js",
+    "locations:import": "node scripts/importLgdLocations.js",
+    "migrate:tractors": "node scripts/migrateLegacyTractors.js"
   },
   "keywords": [],
   "author": "",

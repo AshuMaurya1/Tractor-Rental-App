@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700">
+  <defs>
+    <marker id="arrowhead3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9Z" fill="#C9971C"/>
+    </marker>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1600" height="700" fill="#F4EFE2"/>
+
+  <!-- Sun -->
+  <circle cx="1360" cy="130" r="90" fill="#F5D98A"/>
+
+  <!-- Far hills -->
+  <path d="M0 430 Q 200 370 420 420 T 900 410 T 1600 430 L 1600 700 L 0 700 Z" fill="#C7DDB0"/>
+  <!-- Near field -->
+  <path d="M0 480 Q 260 430 560 470 T 1120 460 T 1600 480 L 1600 700 L 0 700 Z" fill="#9FC17E"/>
+  <!-- Field rows -->
+  <g stroke="#7FA85F" stroke-width="6" opacity="0.6">
+    <path d="M0 560 Q 400 520 800 555 T 1600 545" fill="none"/>
+    <path d="M0 610 Q 400 575 800 605 T 1600 598" fill="none"/>
+    <path d="M0 655 Q 400 625 800 650 T 1600 645" fill="none"/>
+  </g>
+
+  <!-- Ground strip -->
+  <rect x="0" y="600" width="1600" height="100" fill="#6B4A2F" opacity="0.18"/>
+
+  <!-- Tractor silhouette, larger scale, placed mid-right of field -->
+  <g transform="translate(980,330) scale(2.6)">
+    <circle cx="132" cy="150" r="30" fill="#1A1A1A"/>
+    <circle cx="132" cy="150" r="18" fill="#6B4A2F"/>
+    <circle cx="132" cy="150" r="5" fill="#F4EFE2"/>
+    <circle cx="63" cy="155" r="16" fill="#1A1A1A"/>
+    <circle cx="63" cy="155" r="9" fill="#6B4A2F"/>
+    <path d="M 45 138 L 45 118 L 96 108 L 96 138 Z" fill="#6B4A2F"/>
+    <circle cx="52" cy="122" r="5" fill="#C9971C"/>
+    <rect x="90" y="128" width="46" height="10" fill="#2E5339"/>
+    <path d="M 96 108 L 96 62 L 132 62 L 146 90 L 146 108 Z" fill="#2E5339"/>
+    <path d="M 103 70 L 126 70 L 136 90 L 103 90 Z" fill="#E8F0E4" opacity="0.9"/>
+    <rect x="100" y="46" width="8" height="20" rx="3" fill="#1A1A1A"/>
+  </g>
+
+  <!-- Left panel: text block on soft card for legibility -->
+  <rect x="60" y="230" width="640" height="240" rx="16" fill="#FFFFFF" opacity="0.82"/>
+  <text x="96" y="320" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#2E5339">AGRICULTURAL</text>
+  <text x="96" y="380" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#2E5339">EQUIPMENT <tspan fill="#C9971C">RENTAL</tspan></text>
+  <rect x="98" y="398" width="440" height="4" fill="#6B4A2F"/>
+  <text x="98" y="432" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#6B4A2F" letter-spacing="1.5">Find. Book. Farm &#8212; Equipment On Demand</text>
+</svg>

@@ -1,30 +1,67 @@
 import { assets } from '../assets/assets'
-import {motion} from 'motion/react'
+import { Link } from 'react-router-dom'
+import { useAppContext } from '../context/AppContext'
+import { ArrowRight, ShieldCheck, Tractor } from 'lucide-react'
 
 const Banner = () => {
-  return (
-    <motion.div
-    initial={{opacity: 0, y: 50}}
-    whileInView={{opacity: 1, y: 0}}
-    transition={{duration : 0.6}}
-    className='w-5xl flex flex-col md:flex-row md:items-start items-center justify-between px-8 py-10 min-md:pl-14 bg-gradient-to-r from-[#0558FE] to-[#A9CFFF] max-w-6xl mx-3 md:mx-auto rounded-2xl overflow-hidden'>
-        <div className='text-white'>
-            <h2 className='text-3xl font-medium'>Do You Own a PowerFull Tractor</h2>
-            <p className='mt-2'>Menetize your vehicle effortless by listing it on TractorRent.</p>
-            <p className='max-w-130'>We take tracors od insurance, driver verification and secure payment _ so you earn passive income, stress-free</p>
+  const { currency = "₹", language = 'en' } = useAppContext();
 
-            <motion.button
-            whileHover={{scale : 1.05}}
-            className='px-6 py-2 bg-white hover:bg-slate-100 transition-all text-primary rounded-lg text-sm mt-4 cursor-pointer'>
-                List Your Tractor
-            </motion.button>
+  return (
+    <section className='my-12 max-w-7xl mx-4 sm:mx-6 lg:mx-auto antialiased'>
+      <div className='bg-slate-900 rounded-xl p-6 sm:p-10 text-white flex flex-col md:flex-row items-center justify-between gap-8 border border-slate-800 shadow-sm'>
+        
+        <div className='max-w-xl text-left space-y-3.5'>
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-slate-800 text-slate-300 text-xs font-semibold border border-slate-700">
+            <Tractor className="w-3.5 h-3.5 text-blue-400" />
+            <span>{language === 'hi' ? 'कस्टम हायरिंग पार्टनर प्रोग्राम' : 'Custom Hiring Partner Program'}</span>
+          </div>
+
+          <h2 className='text-2xl sm:text-3xl font-extrabold tracking-tight leading-snug'>
+            {language === 'hi' 
+              ? 'क्या आपके पास कृषि ट्रैक्टर या उपकरण हैं?' 
+              : 'Do You Own an Agricultural Tractor or Implements?'}
+          </h2>
+
+          <p className='text-xs sm:text-sm text-slate-300 leading-relaxed'>
+            {language === 'hi'
+              ? `अपने खाली पड़े ट्रैक्टर को लिस्ट करके मौसमी जुताई व कटाई के दौरान प्रति माह ${currency}35,000 से ${currency}80,000 तक अतिरिक्त आय कमाएं।`
+              : `Monetize your idle farm machinery during seasonal field operations. Earn between ${currency}35,000 to ${currency}80,000/month with zero hassle and verified renters.`}
+          </p>
+
+          <div className="flex flex-wrap items-center gap-4 text-xs text-slate-300 pt-1">
+            <span className="flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" /> 
+              <span>{language === 'hi' ? 'सत्यापित किसान किराएदार' : 'Verified Farmer Renters'}</span>
+            </span>
+            <span className="flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" /> 
+              <span>{language === 'hi' ? 'दैनिक बैंक भुगतान' : 'Guaranteed Daily Bank Payouts'}</span>
+            </span>
+          </div>
+
+          <div className="pt-2">
+            <Link to='/owner/add-tractor'>
+              <button 
+                type="button"
+                className='inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg text-xs uppercase tracking-wider transition-colors cursor-pointer'
+              >
+                <span>{language === 'hi' ? 'अपना ट्रैक्टर लिस्ट करें' : 'List Your Machinery'}</span>
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            </Link>
+          </div>
         </div>
-            <motion.img 
-            initial={{opacity:0, x: 50}}
-            whileInView={{opacity: 1, x: 0}}
-            transition={{duration: 0.6, delay: 0.4}}
-            src={assets.Banner_card} alt="Tractor" className='max-h-45 mt-3 rounded-2xl' />
-    </motion.div>
+
+        <div className='shrink-0 w-full md:w-auto flex justify-center'>
+          <img 
+            src={assets.Banner1} 
+            alt="Agricultural Tractor Fleet" 
+            className='max-h-52 rounded-lg object-cover border border-slate-700' 
+          />
+        </div>
+
+      </div>
+    </section>
   )
 }
 

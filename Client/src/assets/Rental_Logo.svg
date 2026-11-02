@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="1800" height="480">
+  <defs>
+    <marker id="arrowhead2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9Z" fill="#C9971C"/>
+    </marker>
+  </defs>
+
+  <!-- Icon badge, same design as icon.svg, scaled/positioned -->
+  <g transform="translate(20,20) scale(1)">
+    <circle cx="100" cy="100" r="96" fill="#E8F0E4"/>
+    <circle cx="100" cy="100" r="96" fill="none" stroke="#2E5339" stroke-width="4"/>
+    <path d="M 34 70 A 72 72 0 0 1 148 38" fill="none" stroke="#C9971C" stroke-width="6" stroke-linecap="round" marker-end="url(#arrowhead2)"/>
+    <path d="M 166 130 A 72 72 0 0 1 52 162" fill="none" stroke="#C9971C" stroke-width="6" stroke-linecap="round" marker-end="url(#arrowhead2)"/>
+    <line x1="18" y1="152" x2="182" y2="152" stroke="#6B4A2F" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+    <circle cx="132" cy="150" r="30" fill="#1A1A1A"/>
+    <circle cx="132" cy="150" r="18" fill="#6B4A2F"/>
+    <circle cx="132" cy="150" r="5" fill="#E8F0E4"/>
+    <circle cx="63" cy="155" r="16" fill="#1A1A1A"/>
+    <circle cx="63" cy="155" r="9" fill="#6B4A2F"/>
+    <path d="M 45 138 L 45 118 L 96 108 L 96 138 Z" fill="#6B4A2F"/>
+    <circle cx="52" cy="122" r="5" fill="#C9971C"/>
+    <rect x="90" y="128" width="46" height="10" fill="#2E5339"/>
+    <path d="M 96 108 L 96 62 L 132 62 L 146 90 L 146 108 Z" fill="#2E5339"/>
+    <path d="M 103 70 L 126 70 L 136 90 L 103 90 Z" fill="#E8F0E4" opacity="0.85"/>
+    <rect x="100" y="46" width="8" height="20" rx="3" fill="#1A1A1A"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="248" y="118" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#2E5339">AGRICULTURAL</text>
+  <text x="248" y="168" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#2E5339">EQUIPMENT <tspan fill="#C9971C">RENTAL</tspan></text>
+  <rect x="250" y="184" width="430" height="4" fill="#6B4A2F"/>
+  <text x="250" y="212" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" letter-spacing="2" fill="#6B4A2F">FIND. BOOK. FARM.</text>
+</svg>

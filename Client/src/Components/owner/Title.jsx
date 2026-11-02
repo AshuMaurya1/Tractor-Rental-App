@@ -1,9 +1,9 @@
-const Title = ({title, subtitle}) => {
+const Title = ({ title, subtitle }) => {
   return (
-    <>
-        <h1 className='font-medium text-3xl'>{title}</h1>
-        <p className='text-sm md:text-base text-gray-500/90 mt-2 max-w'>{subtitle}</p>
-    </>
+    <div className='mb-6'>
+      <h1 className='font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight'>{title}</h1>
+      {subtitle && <p className='text-sm text-slate-500 mt-1 max-w-2xl leading-relaxed'>{subtitle}</p>}
+    </div>
   )
 }
 
