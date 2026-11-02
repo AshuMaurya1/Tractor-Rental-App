@@ -81,7 +81,23 @@ app.use((req, res, next) => {
 app.use(cors(corsOptions));
 app.use(express.json());
 app.use('/uploads', express.static(path.resolve(process.cwd(), 'uploads')));
-app.get("/", (_req, res) => {res.send("Server is running in development mode by Ashu Maurya");});
+app.get("/", (_req, res) => {
+  res.json({
+    name: "Tractor Rental Platform API",
+    status: "running",
+    database: dbReady ? "connected" : "connecting",
+    version: "1.0.0"
+  });
+});
+
+app.get("/health", (_req, res) => {
+  res.status(200).json({
+    status: "ok",
+    database: dbReady ? "connected" : "connecting",
+    uptime: Math.floor(process.uptime()),
+    timestamp: new Date().toISOString()
+  });
+});
 app.use("/api/user", userRouter);
 app.use("/api/owner", ownerRouter);
 app.use("/api/booking", bookingRouter);

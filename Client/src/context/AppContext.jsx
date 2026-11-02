@@ -4,7 +4,7 @@ import { toast } from 'react-hot-toast'
 import { useNavigate } from "react-router-dom";
 import { translations } from "../translations/translations";
 
-const API_BASE_URL = import.meta.env.VITE_BASE_URL || 'http://localhost:4000';
+const API_BASE_URL = (import.meta.env.VITE_BASE_URL || 'http://localhost:4000').replace(/\/+$/, '');
 axios.defaults.baseURL = API_BASE_URL;
 
 const normalizeRole = (role) => {

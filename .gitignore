@@ -9,6 +9,8 @@
 
 # Logs
 *.log
+uploads/
+**/uploads/
 
 # Local editor and agent settings
 .vscode/

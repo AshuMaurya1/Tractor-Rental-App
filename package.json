@@ -1,0 +1,13 @@
+{
+  "name": "tractor-rental-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo configuration for Tractor Rental Application",
+  "scripts": {
+    "build:client": "npm --prefix Client run build",
+    "preview:client": "npm --prefix Client run preview",
+    "start:server": "npm --prefix Server start",
+    "dev:client": "npm --prefix Client run dev",
+    "dev:server": "npm --prefix Server run dev"
+  }
+}
