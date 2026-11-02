@@ -1,2 +1,1 @@
-﻿# Agricultural-Equipment-Rental-Platform
-# Tractor-Rental-App
+﻿# Tractor-Rental-App
