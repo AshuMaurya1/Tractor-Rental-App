@@ -21,7 +21,13 @@ dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 // Initialize Express app
 const app = express();
 const PORT = process.env.PORT || 4000;
-const allowedOrigins = [
+
+const configuredOrigins = (process.env.CLIENT_URL || process.env.FRONTEND_URL || "")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
+
+const defaultLocalOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:4173",
@@ -29,11 +35,20 @@ const allowedOrigins = [
   "http://127.0.0.1:5174",
   "http://127.0.0.1:4173",
 ];
+
+const isOriginAllowed = (origin) => {
+  if (!origin) return true;
+  if (defaultLocalOrigins.includes(origin)) return true;
+  if (configuredOrigins.some((allowed) => origin === allowed || origin.startsWith(allowed))) return true;
+  if (origin.endsWith('.vercel.app') || origin.endsWith('.onrender.com') || origin.endsWith('.netlify.app')) return true;
+  return false;
+};
+
 let dbReady = false;
 
 const corsOptions = {
   origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
+    if (isOriginAllowed(origin)) {
       callback(null, true);
       return;
     }
@@ -48,7 +63,7 @@ const corsOptions = {
 app.use((req, res, next) => {
   const origin = req.headers.origin;
 
-  if (origin && allowedOrigins.includes(origin)) {
+  if (isOriginAllowed(origin) && origin) {
     res.setHeader("Access-Control-Allow-Origin", origin);
     res.setHeader("Access-Control-Allow-Credentials", "true");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, DELETE, OPTIONS");
